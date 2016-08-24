@@ -1,0 +1,100 @@
+﻿生成启动时间为 2016/8/20 16:28:40。
+     1>项目“F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\SplitTo\SplitTo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\SplitTo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TableBoardDlg.cpp
+         TableBoardDlg.cpp
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\opengl\Camera.h(16): warning C4005: “ZOOM_IN”: 宏重定义
+                 f:\program files (x86)\vs2013\vc\atlmfc\include\afxpriv.h(475) : 参见“ZOOM_IN”的前一个定义
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\opengl\Camera.h(17): warning C4005: “ZOOM_OUT”: 宏重定义
+                 f:\program files (x86)\vs2013\vc\atlmfc\include\afxpriv.h(473) : 参见“ZOOM_OUT”的前一个定义
+     1>TableBoardDlg.cpp(127): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+     1>TableBoardDlg.cpp(131): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+     1>TableBoardDlg.cpp(165): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>TableBoardDlg.cpp(166): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>TableBoardDlg.cpp(167): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+     1>TableBoardDlg.cpp(224): warning C4244: “=”: 从“long double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(342): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(343): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(344): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(345): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(357): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(358): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(373): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(374): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(385): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(386): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(394): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(395): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(396): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(397): warning C4244: “=”: 从“double”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(409): warning C4305: “*=”: 从“double”到“float”截断
+     1>TableBoardDlg.cpp(419): warning C4305: “/=”: 从“double”到“float”截断
+     1>TableBoardDlg.cpp(444): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(445): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(446): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(447): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+     1>TableBoardDlg.cpp(509): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(519): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(561): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(563): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(592): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(594): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>TableBoardDlg.cpp(620): warning C4305: “=”: 从“double”到“float”截断
+     1>TableBoardDlg.cpp(646): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         F:\Program Files (x86)\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Release\SplitTo.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"F:\Program Files (x86)\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Release\SplitTo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Release\SplitTo.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO Release\SplitTo.res
+         Release\Algorithm.obj
+         Release\Arc.obj
+         Release\ArcSurface.obj
+         Release\Circle.obj
+         Release\ClassView.obj
+         Release\FileView.obj
+         Release\Finish.obj
+         Release\GcodeGeneration.obj
+         Release\Graphic.obj
+         Release\HighResolutionTimer.obj
+         Release\Line.obj
+         Release\LineProcess.obj
+         Release\LineStone.obj
+         Release\MachineSetDlg.obj
+         Release\MainFrm.obj
+         Release\MySpliter.obj
+         Release\Offset.obj
+         Release\Camera.obj
+         Release\GLView.obj
+         Release\OpenGLDC.obj
+         Release\Orthgonal.obj
+         Release\Orthogonal.obj
+         Release\OutputWnd.obj
+         Release\Polygeon.obj
+         Release\PropertiesWnd.obj
+         Release\RotateProcess.obj
+         Release\Rough.obj
+         Release\SawSetDlg.obj
+         Release\SideProcess.obj
+         Release\SideStone.obj
+         Release\SplitTo.obj
+         Release\SplitToDoc.obj
+         Release\SplitToView.obj
+         Release\stdafx.obj
+         Release\TableBoardDlg.obj
+         Release\TableBoardProcess.obj
+         Release\ToolPath.obj
+         Release\Utils.obj
+         Release\ViewTree.obj
+         OPENGL\GeomCalc.lib
+         OPENGL\lib\GLAUX.LIB
+         OPENGL\lib\GLU32.LIB
+         OPENGL\lib\glut32.lib
+         OPENGL\lib\OPENGL32.LIB
+         正在生成代码
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\gcodegeneration.cpp(3482): warning C4715: “CGcodeGeneration::OrthgonalNCInit”: 不是所有的控件路径都返回值
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\gcodegeneration.cpp(1374): warning C4715: “CGcodeGeneration::JugeInSide”: 不是所有的控件路径都返回值
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\toolpath.cpp(5323): warning C4715: “CToolPath::InitRotateFinish”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         SplitTo.vcxproj -> F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Release\SplitTo.exe
+     1>已完成生成项目“F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\SplitTo\SplitTo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.46

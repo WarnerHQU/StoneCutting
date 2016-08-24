@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="OPENGL">
+      <UniqueIdentifier>{05e8bf1f-c1f8-4868-b164-321b74db756a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{d4ad0567-e1a2-47e5-b885-72f96432f991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{3ba68133-b102-48bd-aef7-71949517658d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框">
+      <UniqueIdentifier>{d1430f68-52da-4559-a8aa-d6b0751cf6eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SplitTo.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SplitToDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SplitTo.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="OPENGL\GeomCalc.dll">
+      <Filter>OPENGL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SplitTo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitToDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SplitToView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OPENGL\CadBase.h">
+      <Filter>OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OPENGL\Camera.h">
+      <Filter>OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OPENGL\GLView.h">
+      <Filter>OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="OPENGL\OpenGLDC.h">
+      <Filter>OPENGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Arc.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="MySpliter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Finish.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Rough.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="LineStone.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Orthogonal.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygeon.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="Orthgonal.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="LineProcess.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="ArcSurface.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="RotateProcess.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="SideProcess.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="SideStone.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+    <ClInclude Include="HighResolutionTimer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineSetDlg.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="SawSetDlg.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="GcodeGeneration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableBoardDlg.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="TableBoardProcess.h">
+      <Filter>Process</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SplitTo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitToDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitToView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OPENGL\Camera.cpp">
+      <Filter>OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OPENGL\GLView.cpp">
+      <Filter>OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="OPENGL\OpenGLDC.cpp">
+      <Filter>OPENGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Arc.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="MySpliter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Finish.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Offset.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Orthogonal.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Rough.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="LineStone.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygeon.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="LineProcess.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="Orthgonal.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="ArcSurface.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateProcess.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SideProcess.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SideStone.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+    <ClCompile Include="HighResolutionTimer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineSetDlg.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="SawSetDlg.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="GcodeGeneration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableBoardDlg.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="TableBoardProcess.cpp">
+      <Filter>Process</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SplitTo.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="OPENGL\GeomCalc.lib">
+      <Filter>OPENGL</Filter>
+    </Library>
+    <Library Include="OPENGL\lib\GLAUX.LIB">
+      <Filter>OPENGL</Filter>
+    </Library>
+    <Library Include="OPENGL\lib\GLU32.LIB">
+      <Filter>OPENGL</Filter>
+    </Library>
+    <Library Include="OPENGL\lib\glut32.lib">
+      <Filter>OPENGL</Filter>
+    </Library>
+    <Library Include="OPENGL\lib\OPENGL32.LIB">
+      <Filter>OPENGL</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PROFILE2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\PROFILE1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\b1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BK.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap7.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap9.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap10.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap11.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿生成启动时间为 2016/8/20 11:32:19。
+     1>项目“F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\SplitTo\SplitTo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SplitTo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt SplitToDoc.cpp
+         SplitToDoc.cpp
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\opengl\camera.h(16): warning C4005: “ZOOM_IN”: 宏重定义
+                 f:\program files (x86)\vs2013\vc\atlmfc\include\afxpriv.h(475) : 参见“ZOOM_IN”的前一个定义
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\opengl\camera.h(17): warning C4005: “ZOOM_OUT”: 宏重定义
+                 f:\program files (x86)\vs2013\vc\atlmfc\include\afxpriv.h(473) : 参见“ZOOM_OUT”的前一个定义
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\splittodoc.cpp(2049): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+     1>f:\microsoft visual studio\project13\release_version\splitto\splitto\splittodoc.cpp(2080): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+       Link:
+         F:\Program Files (x86)\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Debug\SplitTo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"F:\Program Files (x86)\VS2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Debug\SplitTo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Debug\SplitTo.lib" /MACHINE:X86 Debug\SplitTo.res
+         Debug\Algorithm.obj
+         Debug\Arc.obj
+         Debug\ArcSurface.obj
+         Debug\Circle.obj
+         Debug\ClassView.obj
+         Debug\FileView.obj
+         Debug\Finish.obj
+         Debug\GcodeGeneration.obj
+         Debug\Graphic.obj
+         Debug\HighResolutionTimer.obj
+         Debug\Line.obj
+         Debug\LineProcess.obj
+         Debug\LineStone.obj
+         Debug\MachineSetDlg.obj
+         Debug\MainFrm.obj
+         Debug\MySpliter.obj
+         Debug\Offset.obj
+         Debug\Camera.obj
+         Debug\GLView.obj
+         Debug\OpenGLDC.obj
+         Debug\Orthgonal.obj
+         Debug\Orthogonal.obj
+         Debug\OutputWnd.obj
+         Debug\Polygeon.obj
+         Debug\PropertiesWnd.obj
+         Debug\RotateProcess.obj
+         Debug\Rough.obj
+         Debug\SawSetDlg.obj
+         Debug\SideProcess.obj
+         Debug\SideStone.obj
+         Debug\SplitTo.obj
+         Debug\SplitToDoc.obj
+         Debug\SplitToView.obj
+         Debug\stdafx.obj
+         Debug\TableBoardDlg.obj
+         Debug\TableBoardProcess.obj
+         Debug\ToolPath.obj
+         Debug\Utils.obj
+         Debug\ViewTree.obj
+         OPENGL\GeomCalc.lib
+         OPENGL\lib\GLAUX.LIB
+         OPENGL\lib\GLU32.LIB
+         OPENGL\lib\glut32.lib
+         OPENGL\lib\OPENGL32.LIB
+         SplitTo.vcxproj -> F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\Debug\SplitTo.exe
+     1>已完成生成项目“F:\Microsoft Visual Studio\project13\Release_Version\SplitTo\SplitTo\SplitTo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.81
